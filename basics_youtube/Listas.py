@@ -1,31 +1,31 @@
 #Inventario American Bucks
 
-Productos = ["Irish Spring","Nescafe 200g", "Nutella 950gr","Nutella 200gr", "HeadAndShoulders"]
+productos = ["Irish Spring", "Nescafe 200g", "Nutella 950gr", "Nutella 200gr", "HeadAndShoulders"]
 
 #Cuando es negativo cuenta desde el final (desde -1 para adelante)
-print(Productos[0])
-print(Productos[-1])
+print(productos[0])
+print(productos[-1])
 
 #Porciones
-print(Productos[0:3])
-print(Productos[:3])
+print(productos[0:3])
+print(productos[:3])
 
 #Desde el elemento de indice 2 (3er elemento) hasta el final de la lista.
-print(Productos[2:])
+print(productos[2:])
 
 #
 #Agregar elementos a la lista.
 #Agregar al final de la lista.
-Productos.append("Josefa")
-print(Productos[:])
+productos.append("Josefa")
+print(productos[:])
 
 #Agregar en algun indice en concreto.
-Productos.insert(2,"Josefina")
-print(Productos[:])
+productos.insert(2, "Josefina")
+print(productos[:])
 
 #Agregar mas items (Enlazar otra parte a una lista) (Lista+Lista)
 print("Anadimos 3 items.")
-Productos.extend(["Angel", "Carlos", "Valeria"])
+productos.extend(["Angel", "Carlos", "Valeria"])
 Lista1 = ["Angel", 5 , False, "Pedro"]
 Lista2 = ["Carlos", 18, True, "Juan"]
 Lista3 = Lista1 + Lista2
@@ -34,28 +34,28 @@ print(Lista3[:])
 
 
 #Ubicar cual es el indice de un valor.
-print(Productos.index("Angel"))
+print(productos.index("Angel"))
 
 #Comprobar si un elemento esta en la lista. True or False.
-print("Angel" in Productos)
+print("Angel" in productos)
 
 #Eliminar elementos. .remove
-print(Productos[:])
-Productos.append ("Melchor")
+print(productos[:])
+productos.append ("Melchor")
 print("Melchor agregado.")
-print(Productos[:])
+print(productos[:])
 print("Melchor removido.")
-Productos.remove("Melchor")
-print(Productos[:])
+productos.remove("Melchor")
+print(productos[:])
 
 #Eliminar el ultimo elemento de una lista. .pop
-print(Productos[:])
-Productos.append ("Melchor")
+print(productos[:])
+productos.append ("Melchor")
 print("Melchor agregado.")
-print(Productos[:])
+print(productos[:])
 print("Melchor removido.")
-Productos.pop()
-print(Productos[:])
+productos.pop()
+print(productos[:])
 
 #Repetidor de listas.
 Lista1 = ["Angel", 5 , True] * 3

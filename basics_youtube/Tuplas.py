@@ -2,16 +2,16 @@
 # Si se puede ubicar un elemento en la tupla.
 # Las tuplas se hacen con parentesis ()
 
-Tupla = (5, 6, 7, "Angel")
-print(Tupla[2])
+tupla = (5, 6, 7, "Angel")
+print(tupla[2])
 
 # Creamos una lista con los datos de la tupla. list
-Lista = list(Tupla)
-print(Tupla)
-print(Lista[:])
+lista = list(tupla)
+print(tupla)
+print(lista[:])
 
 # Creamos una tupla con los datos de una lista. tuple
-tupla2 = tuple(Lista)
+tupla2 = tuple(lista)
 
 # Cuantos elementos que senalemos existen en una tupla.
 print(tupla2.count("Angel"))
@@ -20,8 +20,8 @@ print(tupla2.count("Angel"))
 print(len(tupla2))
 
 # Se pueden establecer variables con los valores dentro de una tupla.
-TuplaEjemplo = ("Angel Melean", 28, 12, 2001, 30404963)
-nombre, dia, mes, agno, cedula = TuplaEjemplo
+tupla_ejemplo = ("Angel Melean", 28, 12, 2001, 30404963)
+nombre, dia, mes, agno, cedula = tupla_ejemplo
 print(nombre, mes, dia, agno, cedula)
 
 

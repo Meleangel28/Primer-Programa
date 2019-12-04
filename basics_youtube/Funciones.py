@@ -11,6 +11,7 @@ def suma():
 (A, B) = valorXY()
 # Aca ya esta establecido el valor de A y B gracias a la funcion.
 suma()
+
 """
 def suma2(num1, num2):
     resultado = (num1 + num2)
